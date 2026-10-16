@@ -24,9 +24,9 @@ plt.show()
 plt.close()
 
 # b)
+fs = 8000
 t = 3
-n = 100
-tn = np.arange(n)/t
+tn = np.arange(0, t, 1/fs)
 f = 800
 
 def x(t,f):
